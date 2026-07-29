@@ -1,0 +1,28 @@
+# Datasets and corpora
+data/*
+!data/README.md
+*.jsonl
+
+# Run outputs
+results/
+log/
+logs/
+runs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
